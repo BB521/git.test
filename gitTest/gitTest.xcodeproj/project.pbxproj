@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D16062B20B55658007AA8ED /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D16062A20B55658007AA8ED /* DrawView.m */; };
+		8D16063C20B565FE007AA8ED /* Main.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D16063B20B565FE007AA8ED /* Main.xcassets */; };
 		8D86E3B120AFBD4000BAF73E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D86E3B020AFBD4000BAF73E /* AppDelegate.m */; };
 		8D86E3B420AFBD4000BAF73E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D86E3B320AFBD4000BAF73E /* ViewController.m */; };
 		8D86E3B720AFBD4000BAF73E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D86E3B520AFBD4000BAF73E /* Main.storyboard */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D16062920B55658007AA8ED /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		8D16062A20B55658007AA8ED /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		8D16063B20B565FE007AA8ED /* Main.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Main.xcassets; sourceTree = "<group>"; };
 		8D86E3AC20AFBD4000BAF73E /* gitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D86E3AF20AFBD4000BAF73E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D86E3B020AFBD4000BAF73E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +83,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D16062C20B56565007AA8ED /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8D16062D20B56565007AA8ED /* BaseClasses */,
+				8D16062E20B56565007AA8ED /* Utils */,
+				8D16063120B56565007AA8ED /* Common */,
+				8D16063420B56565007AA8ED /* AppFrame */,
+				8D16063520B56565007AA8ED /* AppDelegate */,
+				8D16063620B56565007AA8ED /* Main */,
+				8D16063720B56565007AA8ED /* Vender */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8D16062D20B56565007AA8ED /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		8D16062E20B56565007AA8ED /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8D16062F20B56565007AA8ED /* NetManager */,
+				8D16063020B56565007AA8ED /* AlertView */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8D16062F20B56565007AA8ED /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+		8D16063020B56565007AA8ED /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		8D16063120B56565007AA8ED /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8D16063220B56565007AA8ED /* Category */,
+				8D16063320B56565007AA8ED /* GlobalDefines */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8D16063220B56565007AA8ED /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8D16063320B56565007AA8ED /* GlobalDefines */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GlobalDefines;
+			sourceTree = "<group>";
+		};
+		8D16063420B56565007AA8ED /* AppFrame */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppFrame;
+			sourceTree = "<group>";
+		};
+		8D16063520B56565007AA8ED /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8D86E3AF20AFBD4000BAF73E /* AppDelegate.h */,
+				8D86E3B020AFBD4000BAF73E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8D16063620B56565007AA8ED /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8D16063720B56565007AA8ED /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		8D16063820B56574007AA8ED /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				8D16063920B565ED007AA8ED /* Resources */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		8D16063920B565ED007AA8ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D16063A20B565ED007AA8ED /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8D16063A20B565ED007AA8ED /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8D16063B20B565FE007AA8ED /* Main.xcassets */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		8D86E3A320AFBD4000BAF73E = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +227,12 @@
 		8D86E3AE20AFBD4000BAF73E /* gitTest */ = {
 			isa = PBXGroup;
 			children = (
-				8D86E3AF20AFBD4000BAF73E /* AppDelegate.h */,
-				8D86E3B020AFBD4000BAF73E /* AppDelegate.m */,
+				8D16062C20B56565007AA8ED /* Classes */,
+				8D16063820B56574007AA8ED /* Others */,
 				8D86E3B220AFBD4000BAF73E /* ViewController.h */,
 				8D86E3B320AFBD4000BAF73E /* ViewController.m */,
+				8D16062920B55658007AA8ED /* DrawView.h */,
+				8D16062A20B55658007AA8ED /* DrawView.m */,
 				8D86E3B520AFBD4000BAF73E /* Main.storyboard */,
 				8D86E3B820AFBD4200BAF73E /* Assets.xcassets */,
 				8D86E3BA20AFBD4200BAF73E /* LaunchScreen.storyboard */,
@@ -237,6 +365,7 @@
 			files = (
 				8D86E3BC20AFBD4200BAF73E /* LaunchScreen.storyboard in Resources */,
 				8D86E3B920AFBD4200BAF73E /* Assets.xcassets in Resources */,
+				8D16063C20B565FE007AA8ED /* Main.xcassets in Resources */,
 				8D86E3B720AFBD4000BAF73E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +393,7 @@
 			files = (
 				8D86E3B420AFBD4000BAF73E /* ViewController.m in Sources */,
 				8D86E3BF20AFBD4200BAF73E /* main.m in Sources */,
+				8D16062B20B55658007AA8ED /* DrawView.m in Sources */,
 				8D86E3B120AFBD4000BAF73E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
